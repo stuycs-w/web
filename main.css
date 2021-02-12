@@ -1,6 +1,124 @@
-*/
+/*
 Willow Denker
 IntroCS pd7 sec11
 HW05 -- Stuylin'
 2021-02-09
-/*
+*/
+
+<!DOCTYPE html>
+<!--
+Willow Denker
+IntroCS pd7 sec11
+HW05 -- Stuylin'
+2021-02-09
+-->
+<html>
+ <head>
+ <meta charset="utf-8">
+<title>
+ HW05: Stuylin'
+   </title>
+   <!--
+The above commands program the name that appears on the title bar of the browser when the published website is accessed.
+-->
+ </head>
+ <body>
+  <div style="background:black">
+     <h1>
+      <div style="color:red">
+         How to Cook
+      </div>
+     </h1>
+   <div style="color:white">
+    <!--
+Changing the color of text that would otherwise be black will enable 
+the text to be visible against the black background of the published website.
+-->
+     <ul>
+         <li>
+How to Cook Pizza
+</li>
+<li>
+             How to Cook Pasta
+</li>
+<li>
+             How to Cook Grilled Cheese
+</li>
+<li>
+             Teammate Showcase
+</li>
+     </ul>
+   </div>
+   <!--
+It seems that, in a table of contents, "<ul>" should precede the entire entry, "</ul>" should follow the entire entry, "<li>"
+should precede each section of the table of contents, and "</li>" should follow each section of the table of contents.  This
+separates each section of the table of contents on the published website, and arranges the section in a list.
+-->
+     <h2>
+      <div style="color:blue">
+         How to Cook Pizza
+      </div>
+     </h2>
+     <p>
+      <div style="color:white">
+         Gather your materials: one baking sheet, one sheet of tin foil, one pizza crust, one jar of olive oil,
+         one utensil to spread the aforementioned olive oil, shredded cheese, and toppings of your choice.  Preheat
+         the oven to the temperature specified on the packaging of the pizza crust.  Place the tin foil atop the baking
+       sheet, and place the pizza crust atop the tin foil.  Pour a bit of the olive oil onto the pizza crust, and use the
+       utensil to spread the olive oil across the pizza crust until it is evenly distributed.  Distribute your toppings
+       evenly atop the pizza crust.  Pour an amount of cheese atop the pizza.  Place the pizza into the oven for the amount
+       of time specified by the packaging of the pizza crust.  Remove the pizza from the oven.
+   </div>
+     </p>
+   <a href="https://ohmyveggies.com/50-vegetarian-pizza-recipes/">For more ideas on how to cook pizza, check out this link!</a>
+     <h2>
+      <div style="color:blue">
+         How to Cook Pasta
+      </div>
+     </h2>
+     <p>
+      <div style="color:white">
+        Gather your materials: one stove, filtered tap water, one pot, one plate or one bowl, one strainer, and one package of pasta. 
+         Fill a pot about halfway with filtered tap water.  Place the pot on the stove and turn on the stove to medium heat.  When the
+         water begins to boil, add the pasta to the water for the time specified by the packaging of the pasta.  Then, turn off the stove. 
+         Pour the pasta from the pot into a strainer, and transfer the pasta into a plate or a bowl.
+  </div>
+  </p>
+   <a href="https://minimalistbaker.com/17-vegetarian-pasta-dishes/">For more ideas on how to cook pasta, check out this link!</a>  
+     <h2>
+      <div style="color:blue">
+         How to Cook Grilled Cheese
+      </div>
+  </h2>
+     <p>
+      <div style="color:white">
+         Gather your materials: one pan, a small amount of butter, one plate or one bowl, one utensil for flipping the bread, one slice of bread,
+         and one slice of cheese.  Place the butter into the pan.  Place the pan on the stove and turn on the stove to medium heat.  When the butter
+         melts, place the bread into the pan.  When the side of the bread facing the pan becomes golden and crispy, flip the bread.  Add the cheese to
+         the top of the bread.  When the other side of the bread becomes golden and crispy, turn off the stove and transfer the grilled cheese into a
+         plate or a bowl.
+ </div>
+ </p>
+   <a href="https://peasandcrayons.com/2016/11/vegan-grilled-cheese-recipes.html">For more ideas on how to cook grilled cheese, check out this link!</a>
+     <h3>
+      <div style="color:yellow">
+       <!--
+The yellow color of this text will enable a viewer of the published website to distinguish this text from "<h2>" headings as well as 
+from the descriptive paragraphs that follow the "<p>" commands, and thus to realize its function as an "<h3>" heading. 
+-->
+         Showcasing Team CDJ
+      </div>
+</h3>
+   <h4>
+     <a href="https://kyle-chann.github.io/web/index.html">Kyle Chan</a>
+   </h4>
+   <h4>
+   <a href="https://ianjiang7.github.io/web/index.html">Ian Jiang</a>
+   </h4>
+<!--
+Utilizing the "<h4>" command before each link and the "</h4>" command after each link enables the texts that contain the links to appear on separate lines of
+the published website.  The utilization of these commands also seems to result in the texts that contain the links appearing bold on the published website.
+-->
+  </div>
+   </body>
+</html>
