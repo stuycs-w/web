@@ -5,22 +5,14 @@ HW05 -- Stuylin'
 2021-02-09
 */
 
-<!DOCTYPE html>
-<!--
-Willow Denker
-IntroCS pd7 sec11
-HW05 -- Stuylin'
-2021-02-09
--->
-<html>
  <head>
  <meta charset="utf-8">
 <title>
  HW05: Stuylin'
    </title>
-   <!--
+/*
 The above commands program the name that appears on the title bar of the browser when the published website is accessed.
--->
+*/
  </head>
  <body>
   <div style="background:black">
@@ -30,10 +22,10 @@ The above commands program the name that appears on the title bar of the browser
       </div>
      </h1>
    <div style="color:white">
-    <!--
+    /*
 Changing the color of text that would otherwise be black will enable 
 the text to be visible against the black background of the published website.
--->
+*/
      <ul>
          <li>
 How to Cook Pizza
@@ -49,11 +41,11 @@ How to Cook Pizza
 </li>
      </ul>
    </div>
-   <!--
+   /*
 It seems that, in a table of contents, "<ul>" should precede the entire entry, "</ul>" should follow the entire entry, "<li>"
 should precede each section of the table of contents, and "</li>" should follow each section of the table of contents.  This
 separates each section of the table of contents on the published website, and arranges the section in a list.
--->
+*/
      <h2>
       <div style="color:blue">
          How to Cook Pizza
@@ -102,10 +94,10 @@ separates each section of the table of contents on the published website, and ar
    <a href="https://peasandcrayons.com/2016/11/vegan-grilled-cheese-recipes.html">For more ideas on how to cook grilled cheese, check out this link!</a>
      <h3>
       <div style="color:yellow">
-       <!--
+       /*
 The yellow color of this text will enable a viewer of the published website to distinguish this text from "<h2>" headings as well as 
 from the descriptive paragraphs that follow the "<p>" commands, and thus to realize its function as an "<h3>" heading. 
--->
+*/
          Showcasing Team CDJ
       </div>
 </h3>
@@ -115,10 +107,9 @@ from the descriptive paragraphs that follow the "<p>" commands, and thus to real
    <h4>
    <a href="https://ianjiang7.github.io/web/index.html">Ian Jiang</a>
    </h4>
-<!--
+/*
 Utilizing the "<h4>" command before each link and the "</h4>" command after each link enables the texts that contain the links to appear on separate lines of
 the published website.  The utilization of these commands also seems to result in the texts that contain the links appearing bold on the published website.
--->
+*/
   </div>
    </body>
-</html>
