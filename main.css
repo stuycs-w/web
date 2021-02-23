@@ -8,7 +8,7 @@ h1 { font-size: 12 }
 /*
 This procedure sets the size of the text of all “<h1>” headings to 12.
 */
-body { border: thin dotted mediumspringgreen }
+body { border: thick dotted green }
 /*
 This procedure sets the location around the edges of the published website to become a certain shade of green.
 */
